@@ -10,7 +10,7 @@
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
     "test": "jest"
   },
-  "author": "Shane Thompson",
+  "author": "Jeremy Diamond",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.26.0",
@@ -18,6 +18,7 @@
     "eslint-plugin-import": "^2.26.0",
     "jest": "^29.2.2",
     "prettier": "^2.7.1",
+
     "vite": "^3.2.0"
   },
   "babel": {

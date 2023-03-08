@@ -6,15 +6,12 @@
 
 ## Prerequisites
 
-- You must have Node installed. 
-
 ## Setup
+-use npm init to help configure package.json file 
 
-- `npm install`
-- `npm run start` starts up a local server and updates on any JS or CSS/SCSS changes.
+- You must have Node installed.
 
-## Other commands
+for server use npm install express
 
-- `npm run build` to build final files when you are ready to turn in.
-- `npm run lint` to run ESLint against your code to find errors.
-- `npm run format` to run Prettier to automatically format your code.
+node index.js starts the server to run the api while your window is open
+
