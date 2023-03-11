@@ -512,7 +512,7 @@ const data = [
 ];
 
 // Define a route that takes an ID parameter and looks up the corresponding data
-app.get("/data/:quote:id", (req, res) => {
+app.get("/data/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const result = data.find((d) => d.id === id);
   if (result) {

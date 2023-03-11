@@ -15,3 +15,5 @@ for server use npm install express
 
 node index.js starts the server to run the api while your window is open
 
+http://localhost:3000/data/1 this is the url to access the api record 1
+
