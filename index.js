@@ -1,6 +1,9 @@
 const express = require("express");
+const cors = require('cors');
+
 
 const app = express();
+app.use(cors());
 
 // Define an array of data objects with ids
 const data = [
@@ -512,6 +515,7 @@ const data = [
 ];
 
 // Define a route that takes an ID parameter and looks up the corresponding data
+
 app.get("/data/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const result = data.find((d) => d.id === id);
