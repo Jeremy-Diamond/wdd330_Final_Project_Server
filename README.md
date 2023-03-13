@@ -11,7 +11,11 @@
 
 - You must have Node installed.
 
-for server use npm install express
+for server use 
+
+npm install express
+&
+npm install cors
 
 node index.js starts the server to run the api while your window is open
 
