@@ -454,8 +454,8 @@ const data = [
         quoteExpirationDate: "2022-08-31",
         quoteNumber: "633988",
         primaryContact: {
-          phone: "8014689532",
-          email: null,
+          phone: "(801)468-9532",
+          email: "iheartchickens@gmail.com",
           name: "Ranger Rusty",
         },
         salesRep: {
@@ -469,10 +469,10 @@ const data = [
         },
         soldTo: {
           country: "USA",
-          zipCode: "69696",
+          zipCode: "84555",
           state: "UT",
           city: "South Salt Lake",
-          street: "Steve Foulgers Chickens",
+          street: "123 Coop Street",
           name: "Steve Foulgers Chickens",
         },
         isLeaseAmendment: false,
